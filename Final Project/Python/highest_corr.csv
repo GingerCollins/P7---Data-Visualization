@@ -1,0 +1,65 @@
+,var1,var2,num
+0,ListingNumber,LoanNumber,0.9950947054928463
+1,Term,LoanOriginalAmount,0.33892745773451693
+2,BorrowerAPR,BorrowerRate,0.9898239703032087
+3,BorrowerRate,LenderYield,0.99921133065114
+4,LenderYield,BorrowerRate,0.99921133065114
+5,EstimatedEffectiveYield,BorrowerAPR,0.8956348211024109
+6,EstimatedLoss,BorrowerAPR,0.9495375016817327
+7,EstimatedReturn,BorrowerRate,0.8176698691858469
+8,ProsperRating (numeric),ProsperScore,0.7052214196390406
+9,ProsperScore,ProsperRating (numeric),0.7052214196390406
+10,ListingCategory (numeric),BorrowerAPR,0.13245583482396034
+11,EmploymentStatusDuration,TotalTrades,0.218200129297758
+12,IsBorrowerHomeowner,TotalTrades,0.31740576288063443
+13,CurrentlyInGroup,LoanMonthsSinceOrigination,0.48272713148823787
+14,CreditScoreRangeLower,ProsperRating (numeric),0.5488738499269037
+15,CreditScoreRangeUpper,ProsperRating (numeric),0.5488738499269037
+16,CurrentCreditLines,OpenCreditLines,0.9604087068966212
+17,OpenCreditLines,CurrentCreditLines,0.9604087068966212
+18,TotalCreditLinespast7years,TotalTrades,0.9364824396124785
+19,OpenRevolvingAccounts,OpenCreditLines,0.8854483855467236
+20,OpenRevolvingMonthlyPayment,RevolvingCreditBalance,0.7609607726627793
+21,InquiriesLast6Months,TotalInquiries,0.7419499251460382
+22,TotalInquiries,InquiriesLast6Months,0.7419499251460382
+23,CurrentDelinquencies,DelinquenciesLast7Years,0.3777769220085513
+24,AmountDelinquent,CurrentDelinquencies,0.34054852175673017
+25,DelinquenciesLast7Years,CurrentDelinquencies,0.3777769220085513
+26,PublicRecordsLast10Years,PublicRecordsLast12Months,0.31282806509023503
+27,PublicRecordsLast12Months,PublicRecordsLast10Years,0.31282806509023503
+28,RevolvingCreditBalance,OpenRevolvingMonthlyPayment,0.7609607726627793
+29,BankcardUtilization,OpenRevolvingMonthlyPayment,0.2979283928365806
+30,AvailableBankcardCredit,['CreditScoreRangeLower' 'CreditScoreRangeUpper'],0.45325693113429055
+31,TotalTrades,TotalCreditLinespast7years,0.9364824396124785
+32,TradesNeverDelinquent (percentage),['CreditScoreRangeLower' 'CreditScoreRangeUpper'],0.46889900184598293
+33,TradesOpenedLast6Months,InquiriesLast6Months,0.36544700325195917
+34,DebtToIncomeRatio,EstimatedEffectiveYield,0.12850609568375584
+35,IncomeVerifiable,ProsperScore,0.15461887779927075
+36,StatedMonthlyIncome,ProsperPrincipalBorrowed,0.26771093275893176
+37,TotalProsperLoans,TotalProsperPaymentsBilled,0.7038034732712608
+38,TotalProsperPaymentsBilled,OnTimeProsperPayments,0.9903052133045692
+39,OnTimeProsperPayments,TotalProsperPaymentsBilled,0.9903052133045692
+40,ProsperPaymentsLessThanOneMonthLate,ProsperPaymentsOneMonthPlusLate,0.3332478344827879
+41,ProsperPaymentsOneMonthPlusLate,ProsperPaymentsLessThanOneMonthLate,0.3332478344827879
+42,ProsperPrincipalBorrowed,TotalProsperLoans,0.543333339411799
+43,ProsperPrincipalOutstanding,ProsperPrincipalBorrowed,0.4983513073576621
+44,ScorexChangeAtTimeOfListing,['CreditScoreRangeLower' 'CreditScoreRangeUpper'],0.317179597578452
+45,LoanCurrentDaysDelinquent,LP_GrossPrincipalLoss,0.5340582935241391
+46,LoanFirstDefaultedCycleNumber,LP_CustomerPayments,0.4841099036233207
+47,LoanMonthsSinceOrigination,CurrentlyInGroup,0.48272713148823787
+48,LoanNumber,ListingNumber,0.9950947054928463
+49,LoanOriginalAmount,MonthlyLoanPayment,0.9319836797292763
+50,MonthlyLoanPayment,LoanOriginalAmount,0.9319836797292763
+51,LP_CustomerPayments,LP_CustomerPrincipalPayments,0.9774300449629575
+52,LP_CustomerPrincipalPayments,LP_CustomerPayments,0.9774300449629575
+53,LP_InterestandFees,LP_CustomerPayments,0.6871885109973702
+54,LP_ServiceFees,ListingNumber,0.20828577017103053
+55,LP_CollectionFees,LoanNumber,0.10614882347717165
+56,LP_GrossPrincipalLoss,LP_NetPrincipalLoss,0.9928212470286852
+57,LP_NetPrincipalLoss,LP_GrossPrincipalLoss,0.9928212470286852
+58,LP_NonPrincipalRecoverypayments,LP_GrossPrincipalLoss,0.2597265766323412
+59,PercentFunded,LP_ServiceFees,0.06959054468663292
+60,Recommendations,InvestmentFromFriendsCount,0.7180790818028814
+61,InvestmentFromFriendsCount,Recommendations,0.7180790818028814
+62,InvestmentFromFriendsAmount,InvestmentFromFriendsCount,0.4835059543336752
+63,Investors,LP_CustomerPayments,0.5626069774041377
